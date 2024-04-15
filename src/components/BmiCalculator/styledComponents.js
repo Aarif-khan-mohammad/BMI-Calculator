@@ -106,8 +106,9 @@ export const ButtonsContainer = styled.div`
     }
 `
 export const Buttons = styled.button`
-    width: 80%;
-    height: 45%;
+    width: 100%;
+    height: 50%;
+    text-align:center;
     border-radius:50%;
     background-color: #35374B;
     color:white;
