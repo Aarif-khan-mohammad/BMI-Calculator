@@ -122,7 +122,7 @@ export const Buttons = styled.button`
 `
 
 export const TotalBmis = styled.h2`
-    color: #fff;
+    color: #fff !important;
     font-size: 2rem;
     font-weight: bold;
     font-family:"Roboto;
