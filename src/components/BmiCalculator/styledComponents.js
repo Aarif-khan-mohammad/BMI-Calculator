@@ -76,8 +76,8 @@ export const HeightContainer = styled.div`
 
 `
 
-export const MiniHeading = styled.h4`
-    color: #fff;
+export const MiniHeading = styled.h2`
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold;
     font-family:"Roboto;
@@ -107,7 +107,7 @@ export const ButtonsContainer = styled.div`
 `
 export const Buttons = styled.button`
     width: 100%;
-    height: 50%;
+    height: 55%;
     text-align:center;
     border-radius:50%;
     background-color: #35374B;
