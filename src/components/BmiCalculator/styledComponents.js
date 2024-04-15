@@ -76,8 +76,8 @@ export const HeightContainer = styled.div`
 
 `
 
-export const MiniHeading = styled.h2`
-    color: #ffffff;
+export const MiniHeading = styled.h4`
+    color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
     font-family:"Roboto;
@@ -108,7 +108,6 @@ export const ButtonsContainer = styled.div`
 export const Buttons = styled.button`
     width: 100%;
     height: 55%;
-    text-align:center;
     border-radius:50%;
     background-color: #35374B;
     color:white;
@@ -122,14 +121,18 @@ export const Buttons = styled.button`
     }
 `
 
-export const TotalBmis = styled.h1`
+export const TotalBmis = styled.h2`
     color: #9BCF53;
     font-size: 2rem;
     font-weight: bold;
     font-family:"Roboto;
+    @media(max-width : 768px){
+        font-size:1rem;
+        color:#fff;
+    }
 `
 
-export const MetersHeading = styled.h2`
+export const MetersHeading = styled.h1`
     color:#fff;
     font-size:2rem;
 
